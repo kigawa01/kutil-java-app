@@ -1,12 +1,16 @@
-# NAME
+# kutil-java-app
 
 ## About
 
-*
+* javaのapp制作でよく使うコード
 
 ## Requirement
 
 * java
+* kutil-java
+* kutil-java-logger
+* kutil-java-thread
+* kutil-java-terminal
 
 ## Author
 
