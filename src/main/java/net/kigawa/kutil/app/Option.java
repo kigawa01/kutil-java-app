@@ -1,7 +1,19 @@
 package net.kigawa.kutil.app;
 
 public class Option {
-    protected Option(String opt, char sOpt) {
+    private final String opt;
+    private final char sOpt;
 
+    protected Option(String opt, char sOpt) {
+        this.opt = opt;
+        this.sOpt = sOpt;
+    }
+
+    public String getOpt() {
+        return opt;
+    }
+
+    public char getsOpt() {
+        return sOpt;
     }
 }
