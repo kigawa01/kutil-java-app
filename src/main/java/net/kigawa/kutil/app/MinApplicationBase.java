@@ -4,7 +4,7 @@ import net.kigawa.kutil.kutil.interfaces.Module;
 
 import java.util.LinkedList;
 
-public abstract class Application implements Module {
+public abstract class MinApplicationBase implements Module {
     private final LinkedList<Module> moduleList = new LinkedList<>();
     private boolean run = false;
 

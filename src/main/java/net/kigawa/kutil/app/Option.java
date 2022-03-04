@@ -4,7 +4,7 @@ public class Option {
     private final String opt;
     private final char sOpt;
 
-    protected Option(String opt, char sOpt) {
+    protected Option(String opt, Character sOpt) {
         this.opt = opt;
         this.sOpt = sOpt;
     }
