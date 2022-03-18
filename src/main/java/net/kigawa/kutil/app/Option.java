@@ -2,7 +2,7 @@ package net.kigawa.kutil.app;
 
 public class Option {
     private final String opt;
-    private final char sOpt;
+    private final Character sOpt;
 
     protected Option(String opt, Character sOpt) {
         this.opt = opt;

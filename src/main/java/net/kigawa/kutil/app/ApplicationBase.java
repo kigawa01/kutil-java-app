@@ -49,7 +49,7 @@ public abstract class ApplicationBase extends MinApplicationBase {
         jline = !hasOpt("no-jline");
 
         logger = new Logger(getClass().getName(), null, log, FileUtil.getRelativeFile("log"));
-        executor = new ThreadExecutor(getClass().getName(), logger);
+        executor = new ThreadExecutor(Terminal.class.getName(), logger);
         terminal = new Terminal(jline, logger);
 
         addModule(logger);
